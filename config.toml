@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://idablomquist.dk/kea/mitsite"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Mit site"
 theme = "systematik"
 
 [[menu.main]]
@@ -22,4 +22,4 @@ theme = "systematik"
     title = "om section"
     weight = 3
     identifier = "Om"
-    url = "../om"
+    url = "/om/"

@@ -1,13 +1,3 @@
-/*PRELOADER START*/
-
-
-setTimeout(function () {
-
-    $('#loader').addClass('done');
-    $('.preloader_container').addClass('done');
-
-}, 3000);
-
 /*NAVIGATION START*/
 
 $('#toggle').click(function () {

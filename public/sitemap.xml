@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/</loc>
+    <lastmod>2018-02-01T09:02:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/dokumentation/typografi/</loc>
+    <lastmod>2018-02-01T08:53:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/dokumentation/farver/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/dokumentation/</loc>
+    <lastmod>2018-02-01T08:52:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/om/</loc>
+    <lastmod>2018-02-01T08:46:22+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/mitsite/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

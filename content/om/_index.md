@@ -1,7 +1,6 @@
 ---
 title: "Om"
 date: 2018-02-01T08:46:22+01:00
-draft: true
 ---
 
-Det her er om siden
+Kontakt mig for at høre mere om design systemet.
