@@ -1,12 +1,21 @@
 /*PRELOADER START*/
 
+document.addEventListener("DOMContentLoaded", function () {
 
-setTimeout(function () {
+    setTimeout(function () {
+        $('#loader').addClass('done');
+        $('.preloader_container').addClass('done')
+    }, 1000);
+});
 
-    $('#loader').addClass('done');
-    $('.preloader_container').addClass('done');
 
-}, 3000);
+
+//setTimeout(function () {
+//
+//    $('#loader').addClass('done');
+//    $('.preloader_container').addClass('done');
+//
+//}, 3000);
 
 /*NAVIGATION START*/
 

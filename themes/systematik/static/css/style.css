@@ -68,8 +68,43 @@
 .done {
   display: none; }
 
+html {
+  font-size: 1em; }
+
 body {
-  background: #F5F5F5; }
+  font-weight: 400;
+  line-height: 1.45;
+  background-color: #E8DDE0; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.3em; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 5.163em;
+  color: #F4F200; }
+
+h2 {
+  font-size: 3.375em; }
+
+h3 {
+  font-size: 2.25em; }
+
+h4 {
+  font-size: 1.5em; }
+
+small,
+.font_small {
+  font-size: 0.667em; }
 
 .container {
   width: 100%;
@@ -77,14 +112,14 @@ body {
   top: 40%;
   left: 0;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
   .container p {
     font-size: 20px; }
   .container a {
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #FF5252;
+    color: #F4F200;
     text-decoration: none;
     font-size: 20px;
     overflow: hidden;
@@ -92,7 +127,7 @@ body {
     .container a:after {
       content: '';
       position: absolute;
-      background: #FF5252;
+      background: #F4F200;
       height: 2px;
       width: 0%;
       transform: translateX(-50%);
@@ -104,8 +139,7 @@ body {
 
 h1 {
   position: relative;
-  text-align: center;
-  font-family: 'Vollkorn', serif; }
+  text-align: center; }
 
 .button_container {
   position: fixed;
@@ -120,15 +154,15 @@ h1 {
     opacity: .7; }
   .button_container.active .top {
     transform: translateY(11px) translateX(0) rotate(45deg);
-    background: #FFF; }
+    background: #0f2d4b; }
   .button_container.active .middle {
     opacity: 0;
-    background: #FFF; }
+    background: #0f2d4b; }
   .button_container.active .bottom {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: #FFF; }
+    background: #0f2d4b; }
   .button_container span {
-    background: #FF5252;
+    background: #F4F200;
     border: none;
     height: 5px;
     width: 100%;
@@ -144,7 +178,7 @@ h1 {
 
 .overlay {
   position: fixed;
-  background: #FF5252;
+  background: #F4F200;
   top: 0;
   left: 0;
   width: 100%;
@@ -173,7 +207,6 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 50px;
-    font-family: 'Vollkorn', serif;
     font-weight: 400;
     text-align: center; }
   .overlay ul {
@@ -193,7 +226,10 @@ h1 {
       .overlay ul li a {
         display: block;
         position: relative;
-        color: #FFF;
+        color: #0f2d4b;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 0.8em;
+        font-weight: 10;
         text-decoration: none;
         overflow: hidden; }
         .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
@@ -216,45 +252,6 @@ h1 {
   100% {
     opacity: 1;
     left: 0; } }
-html {
-  font-size: 1em; }
-
-body {
-  background-color: white;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #333; }
-
-p {
-  margin-bottom: 1.3em; }
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 1.414em 0 0.5em;
-  font-weight: inherit;
-  line-height: 1.2; }
-
-h1 {
-  margin-top: 0;
-  font-size: 5.063em; }
-
-h2 {
-  font-size: 3.375em; }
-
-h3 {
-  font-size: 2.25em; }
-
-h4 {
-  font-size: 1.5em; }
-
-small,
-.font_small {
-  font-size: 0.667em; }
-
-/*Formular*/
 input[type=text],
 input[type=email],
 select,
