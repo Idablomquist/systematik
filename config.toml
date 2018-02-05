@@ -1,7 +1,7 @@
-baseURL = "http://idablomquist.dk/kea/mitsite"
+baseURL = "http://idablomquist.dk/kea/typography_theme"
 languageCode = "en-us"
 title = "Mit site"
-theme = "systematik"
+theme = "typography_theme"
 
 [[menu.main]]
     name = "Home"
