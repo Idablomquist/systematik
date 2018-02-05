@@ -1,61 +1,85 @@
-    @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
-    $color-background: #E8DDE0;
-    $color-main: #F4F200;
-    $color-active: #0f2d4b;
-    $color-link: #FFF;
-    $button-height: 27px;
-    $button-width: 35px;
-    //------------- PRELOADER
-    @import 'partials/preloader';
-    //------------- TYPOGRAFI
-    html {
-        font-size: 1em;
-    }
-    
-    body {
-        font-weight: 400;
-        line-height: 1.45;
-        background-color: #E8DDE0;
-    }
-    
-    p {
-        font-family: 'Open Sans', sans-serif;
-        margin-bottom: 1.3em;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-family: 'Archivo Black', sans-serif;
-        margin: 1.414em 0 0.5em;
-        font-weight: inherit;
-        line-height: 1.2;
-    }
-    
+//font-family: 'Open Sans', sans-serif; 
+//font-family: 'Archivo Black', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+$color-background: #E8DDE0;
+$color-main: #F4F200;
+$color-active: #0f2d4b;
+$color-link: #0f2d4b;
+$button-height: 27px;
+$button-width: 35px;
+//------------- PRELOADER
+@import 'partials/preloader';
+//------------- TYPOGRAFI
+html {
+    font-size: 1em;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.45;
+    background-color: #E8DDE0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 5.163em;
+    color: #F4F200;
+}
+
+h2 {
+    font-size: 3.375em;
+}
+
+h3 {
+    font-size: 2.25em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+small,
+.font_small {
+    font-size: 0.667em;
+}
+
+//------------- NAVIGATION
+@import 'partials/navigation';
+//------------- FORMULAR
+@import 'partials/formular';
+//------------- KNAP
+@import 'partials/knap';
+//------------- MEDIAQUERIES -------------//
+@media screen and (min-width: 768px) {
     h1 {
-        font-size: 5.163em;
-        color: #F4F200;
+        font-size: 9.963em;
     }
-    
-    h2 {
-        font-size: 3.375em;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 11em;
+        margin-top: -0.2em;
+        margin-bottom: 0.4em;
     }
-    
-    h3 {
-        font-size: 2.25em;
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        margin-bottom: 0.2em;
     }
-    
-    h4 {
-        font-size: 1.5em;
-    }
-    
-    small,
-    .font_small {
-        font-size: 0.667em;
-    }
-    
-    //------------- NAVIGATION
-    @import 'partials/navigation';
-    //------------- FORMULAR
-    @import 'partials/formular';
+}

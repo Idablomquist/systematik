@@ -1,6 +1,6 @@
 ---
-title: "typo graphy"
+title: "Home"
 date: 2018-02-01T09:02:04+01:00
 ---
 
-Det her er forsiden
+<h1>typo<br>graphy</h1>

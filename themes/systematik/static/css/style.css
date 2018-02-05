@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 .preloader_container {
-  background-color: white;
+  background: #E8DDE0;
   width: 100vw;
   height: 100vh;
   z-index: 120; }
@@ -24,7 +24,7 @@
       position: absolute;
       width: 2px;
       height: 0;
-      background-color: #000;
+      background: #0f2d4b;
       bottom: 0; }
 
 @keyframes sequence1 {
@@ -67,6 +67,9 @@
 
 .done {
   display: none; }
+
+#loader ul li {
+  width: 5px; }
 
 html {
   font-size: 1em; }
@@ -143,8 +146,8 @@ h1 {
 
 .button_container {
   position: fixed;
-  top: 5%;
-  right: 2%;
+  top: 7%;
+  right: 9%;
   height: 27px;
   width: 35px;
   cursor: pointer;
@@ -178,7 +181,7 @@ h1 {
 
 .overlay {
   position: fixed;
-  background: #F4F200;
+  background: #E8DDE0;
   top: 0;
   left: 0;
   width: 100%;
@@ -207,7 +210,7 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center; }
   .overlay ul {
     list-style: none;
@@ -227,8 +230,8 @@ h1 {
         display: block;
         position: relative;
         color: #0f2d4b;
-        font-family: 'Archivo Black', sans-serif;
-        font-size: 0.8em;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7em;
         font-weight: 10;
         text-decoration: none;
         overflow: hidden; }
@@ -242,7 +245,7 @@ h1 {
           width: 0%;
           transform: translateX(-50%);
           height: 3px;
-          background: #FFF;
+          background: #0f2d4b;
           transition: .35s; }
 
 @keyframes fadeInRight {
@@ -252,6 +255,10 @@ h1 {
   100% {
     opacity: 1;
     left: 0; } }
+@media screen and (min-width: 1024px) {
+  .button_container {
+    top: 7%;
+    right: 5%; } }
 input[type=text],
 input[type=email],
 select,
@@ -294,11 +301,43 @@ input[type=submit]:hover {
   padding: 1em; }
 
 /*# sourceMappingURL=style.css.map */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px; }
+.btns {
+  display: flex;
+  background: #F4F200;
+  padding: 1em;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 22vw;
+  height: 22vw;
+  color: #0f2d4b;
+  text-decoration: none;
+  font-family: 'Archivo Black', sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; }
 
-  .sidenav a {
-    font-size: 18px; } }
+.btns:hover {
+  background-color: rgba(244, 242, 0, 0.8); }
+
+@media screen and (min-width: 768px) {
+  .btns {
+    width: 15vw;
+    height: 15vw; } }
+@media screen and (min-width: 1024px) {
+  .btns {
+    width: 8vw;
+    height: 8vw; } }
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 9.963em; } }
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 11em;
+    margin-top: -0.2em;
+    margin-bottom: 0.4em; } }
+@media screen and (min-width: 1200px) {
+  h1 {
+    margin-bottom: 0.2em; } }
 
 /*# sourceMappingURL=style.css.map */

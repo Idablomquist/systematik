@@ -1,0 +1,39 @@
+//------------- KNAP
+.btns {
+    display: flex;
+    background: $color-main;
+    padding: 1em;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    width: 22vw;
+    height: 22vw;
+    color: $color-link;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btns:hover {
+    background-color: rgba(244, 242, 0, 0.8);
+    //background-color: #ebe907;
+    //opacity: .7;
+}
+
+//------------- MEDIAQUERIES IPAD -------------//
+@media screen and (min-width: 768px) {
+    .btns {
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+//------------- MEDIAQUERIES LAPTOP -------------//
+@media screen and (min-width: 1024px) {
+    .btns {
+        width: 8vw;
+        height: 8vw;
+    }
+}
