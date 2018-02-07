@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //
 //}, 3000);
 
+
 /*NAVIGATION START*/
 
 $('#toggle').click(function () {

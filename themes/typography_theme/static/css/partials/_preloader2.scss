@@ -1,12 +1,14 @@
-//------------- PRELOADER
-.preloader_container {
+//------------- PRELOADER2
+.preloader_container2 {
     background: $color-background;
-    width: 100vw;
-    height: 100vh;
-    z-index: 120;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 100;
+    margin: 1em;
 }
 
-#loader {
+#loader2 {
     position: absolute;
     margin: auto;
     left: 0;
@@ -55,32 +57,32 @@
     }
 }
 
-#loader li:nth-child(1) {
+#loader2 li:nth-child(1) {
     left: 0;
     animation: sequence1 1s ease infinite 0;
 }
 
-#loader li:nth-child(2) {
+#loader2 li:nth-child(2) {
     left: 15px;
     animation: sequence2 1s ease infinite 0.1s;
 }
 
-#loader li:nth-child(3) {
+#loader2 li:nth-child(3) {
     left: 30px;
     animation: sequence1 1s ease-in-out infinite 0.2s;
 }
 
-#loader li:nth-child(4) {
+#loader2 li:nth-child(4) {
     left: 45px;
     animation: sequence2 1s ease-in infinite 0.3s;
 }
 
-#loader li:nth-child(5) {
+#loader2 li:nth-child(5) {
     left: 60px;
     animation: sequence1 1s ease-in-out infinite 0.4s;
 }
 
-#loader li:nth-child(6) {
+#loader2 li:nth-child(6) {
     left: 75px;
     animation: sequence2 1s ease infinite 0.5s;
 }
