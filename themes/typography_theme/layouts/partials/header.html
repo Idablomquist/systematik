@@ -23,12 +23,10 @@
         <nav class="overlay-menu">
             <ul>
                 <li>
-                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a> {{ $currentPage := . }} {{ range .Site.Menus.main }}
+                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a>
+                    {{ $currentPage := . }} {{ range .Site.Menus.main }}
 
-                    <!--<a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>-->
-
-                    <a href="{{.URL}}">{{.Name}}</a> {{ end }}
-
+                    <a href="{{.URL}}">{{.Title}}</a> {{ end }}
                 </li>
             </ul>
         </nav>

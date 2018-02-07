@@ -1,0 +1,50 @@
+{{partial "header.html" . }}
+
+<h2>{{.Title}}</h2>
+
+
+<div class="subtitle col-xs-12 col-sm-6">{{.Content}}</div>
+<section>
+
+    <!--{{ range .Pages }}
+
+<h3>{{.Title}}</h3>
+
+<div>{{.Content}}</div>
+
+{{ end }}-->
+
+    <div class="formular_container">
+        <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
+        <form action="" method="post" id="kontaktmig">
+
+            <label for="Navn">Name</label>
+            <input type="text" id="navn" name="navn" placeholder="Your name">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Your e-mail" required>
+
+            <!--              required kan tilføjes hvis man vil have at et felt SKAL udfyldes-->
+
+            <!--
+<label for="henvendelse">Jeg henvender mig vedr.:</label>
+<select id="henvendelse" name="henvendelse">
+                <option value="support">Support</option>
+                <option value="tilbud">Tilbud</option>
+                <option value="prepurchase">Spørgsmål før køb</option>
+              </select>
+-->
+
+            <label for="besked">Message</label>
+            <textarea id="besked" name="besked" placeholder="Your message.."></textarea>
+
+            <input type="submit" name="submit" value="Submit">
+
+            <div id="formfailure" class="hidden"></div>
+        </form>
+
+    </div>
+</section>
+
+
+{{ partial "footer.html" . }}

@@ -5,9 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         $('#loader').addClass('done');
         $('.preloader_container').addClass('done')
-    }, 1000);
+    }, 2000);
 });
-
 
 
 //setTimeout(function () {
@@ -25,7 +24,7 @@ $('#toggle').click(function () {
 });
 
 
-/*NAVIGATION SLUT*/
+/*KONTAKTFORMULAR*/
 
 /*Ajax contact form*/
 $("#kontaktmig").submit(function (event) {

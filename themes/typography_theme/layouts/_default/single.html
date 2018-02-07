@@ -1,6 +1,14 @@
 {{partial "header.html" . }}
 
 <h2>{{.Title}}</h2>
-<section>{{.Content}}</section>
+
+
+<section>
+    <div class="col-xs-12 col-sm-6">{{.Content}}</div>
+</section>
+
+
+<!--Indsætte et billede som modal vindue
+[![alt text](billedURL.jpg)](billedURL.jpg)-->
 
 {{ partial "footer.html" . }}

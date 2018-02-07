@@ -11,6 +11,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: 'Open Sans', sans-serif;
 }
 
 textarea {
@@ -18,24 +19,27 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background: $color-main;
+    color: $color-active;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background: $color-clicked;
 }
 
-.container {
+.formular_container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background: $color-background;
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: 5vw auto;
+    border: solid 1.5px $color-active;
+    margin-bottom: 5vw;
 }
 
 .hidden {
@@ -43,18 +47,52 @@ input[type=submit]:hover {
 }
 
 #formfailure {
-    background-color: red;
+    background-color: $color-active;
     padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 1em 0;
+    outline-color: $color-main;
 }
 
+#formfeedback {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border-radius: 5px;
+}
 
-/*# sourceMappingURL=style.css.map */
+label {
+    font-family: 'Open Sans', sans-serif;
+}
 
-//        @media screen and (max-height: 450px) {
-//        .sidenav {
-//            padding-top: 15px;
-//        }
-//        .sidenav a {
-//            font-size: 18px;
-//        }
-//    }
+input:focus {
+    outline-color: $color-main;
+}
+
+textarea:focus {
+    outline-color: $color-main;
+}
+
+label {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+//------------- MEDIAQUERIES -------------//
+@media screen and (min-width: 768px) {
+    .formular_container {
+        max-width: 60%;
+        margin: 0.5vw auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formular_container {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .formular_container {
+        max-width: 40%;
+    }
+}

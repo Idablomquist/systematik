@@ -5,21 +5,29 @@ theme = "typography_theme"
 
 [[menu.main]]
     name = "Home"
-    title = "home section"
+    title = "home"
     weight = 1
     identifier = "Home"
     url = "/"
-    
+     
     [[menu.main]]
-    name = "Dokumentation"
-    title = "dokumentation section"
+    name = "About"
+    title = "about"
     weight = 2
-    identifier = "Dokumentation"
-    url = "/dokumentation/"
+    identifier = "About"
+    url = "/about"
     
     [[menu.main]]
-    name = "Om"
-    title = "om section"
+    name = "guide"
+    title = "guide"
     weight = 3
-    identifier = "Om"
-    url = "/om/"
+    identifier = "guide"
+    url = "/guide/"
+    
+    [[menu.main]]
+    name = "Contact"
+    title = "contact"
+    weight = 4
+    identifier = "Contact"
+    url = "/contact/"
+   

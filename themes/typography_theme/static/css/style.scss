@@ -2,7 +2,8 @@
 //font-family: 'Archivo Black', sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 $color-background: #E8DDE0;
-$color-main: #F4F200;
+$color-main: #f0ee00;
+$color-clicked: rgba(244, 242, 0, 0.8);
 $color-active: #0f2d4b;
 $color-link: #0f2d4b;
 $button-height: 27px;
@@ -16,18 +17,33 @@ html {
 
 body {
     font-weight: 400;
-    line-height: 1.45;
+    line-height: 1.55;
     background-color: #E8DDE0;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.35);
+    padding: 4vw 0 2vw;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+    border-radius: 5px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1.3em;
+    margin: 4.5vw;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: $color-main;
 }
 
 h1,
 h2,
-h3,
 h4 {
     font-family: 'Archivo Black', sans-serif;
     margin: 1.414em 0 0.5em;
@@ -37,15 +53,29 @@ h4 {
 
 h1 {
     font-size: 5.163em;
-    color: #F4F200;
+    color: $color-main;
+    position: relative;
+    text-align: center;
 }
 
 h2 {
-    font-size: 3.375em;
+    color: $color-main;
+    font-size: 5em;
+    text-align: center;
+    margin: 1em 0 0.5em;
 }
 
 h3 {
+    color: $color-active;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: inherit;
+    line-height: 1.2;
     font-size: 2.25em;
+    margin: 0;
+    margin-left: 1em;
+    //    margin: 0 auto;
+    //    position: relative;
+    //    text-align: center;
 }
 
 h4 {
@@ -57,6 +87,13 @@ small,
     font-size: 0.667em;
 }
 
+.subtitle {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
 //------------- NAVIGATION
 @import 'partials/navigation';
 //------------- FORMULAR
@@ -65,16 +102,35 @@ small,
 @import 'partials/knap';
 //------------- MEDIAQUERIES -------------//
 @media screen and (min-width: 768px) {
+    section {
+        padding: 4vw 0 4vw;
+        max-width: 82%;
+    }
     h1 {
         font-size: 9.963em;
+    }
+    h2 {
+        font-size: 8em;
+        margin: 0.3em 0;
+    }
+    p {
+        margin: 3vw;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    section {
+        max-width: 84.5%;
+        padding: 2vw 0 2vw;
+    }
     h1 {
         font-size: 11em;
         margin-top: -0.2em;
         margin-bottom: 0.4em;
+    }
+    h2 {
+        font-size: 9em;
+        margin: 0.2em 0;
     }
 }
 
