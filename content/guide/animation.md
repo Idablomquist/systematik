@@ -14,11 +14,9 @@ Dette gøres via jQuery som illustreret her:
 
 <pre>
 <code>
-
 $('#toggle').click(function () {
     $(this).toggleClass('active');
     $('#overlay').toggleClass('open');
 });
-
 </code>
 </pre>

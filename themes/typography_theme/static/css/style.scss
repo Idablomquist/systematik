@@ -56,6 +56,19 @@ a:hover {
     color: §color-active;
 }
 
+.list_overskrift {
+    color: $color-active;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: inherit;
+    line-height: 1.2;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.list_overskrift:hover {
+    color: $color-main;
+}
+
 h1,
 h2,
 h4 {

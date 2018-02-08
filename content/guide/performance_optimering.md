@@ -1,9 +1,9 @@
 ---
-title: "performance optimering"
+title: "optimering"
 date: 2018-02-07T18:32:14+01:00
 ---
 
-For at optimere dette framework og gøre websitet hurtigere er forskellige plugins og tiltag tilføjet. 
+For at performance optimere dette framework og gøre websitet hurtigere er forskellige plugins og tiltag tilføjet. 
 <ul>
 <li>Console log er benyttet til at opdage og minimere fejl og døde links.</li>
 <li>Network er benyttet til at teste load-tiden på sitet og tilpasset herefter for yderligere optimering.</li>

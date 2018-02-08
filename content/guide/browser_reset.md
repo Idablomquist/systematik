@@ -7,7 +7,7 @@ Alle browsere opfører sig lidt forskelligt, så derfor inkluderer dette framewo
 <br>
 <br>
 Normalize downloades [her](https://necolas.github.io/normalize.css/), hvorefter filen normalize.css tilføjes til themes/static/css-mappen og inkluderes i headeren: 
-<pre>
+<pre class="col-lg-12">
 <code>
 &lt;link rel="stylesheet" href="{{.Site.BaseURL}}/css/normalize.css"&gt;
 </code>

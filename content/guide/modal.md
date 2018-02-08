@@ -30,4 +30,6 @@ Modal-vindue kan benyttes ved at tilføje class .modal-vindue til en div og ved 
     </code>
 </pre>
 
-Her er modalvinduet tilføjet en fading.animation (fadeDuration), som kan justeres i JavaScript-filen. 
+Her er modalvinduet tilføjet en fading.animation (fadeDuration), som kan justeres i JavaScript-filen.
+<br>
+Yderligere specifikationer til denne funktion kan findes [her](http://jquerymodal.com).

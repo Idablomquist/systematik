@@ -33,6 +33,3 @@ $color-active: #0f2d4b;
 $color-section: rgba(255, 255, 255, 0.35);
 </code>
 </pre>
-
-
-

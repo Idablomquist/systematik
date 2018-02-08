@@ -26,4 +26,7 @@ col-sm-12
 col-md-12
 
 **Til skærmstørrelse over 1200px**<br>
-col-lg-6
+col-lg-6<br>
+col-lg-offset-3<br>
+*(offset-3 gør at indholdet bliver rykket 3 kolonner ind)*
+
