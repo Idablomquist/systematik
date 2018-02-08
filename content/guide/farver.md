@@ -3,17 +3,36 @@ title: "farver"
 date: 2018-02-01T08:53:19+01:00
 ---
 
-Farver
+Til dette tema er anvendt fem farver.
 
-Hic doctrina ne proident. Ubi o enim appellat, aut culpa ullamco deserunt, 
-consequat nisi consequat ex senserit qui noster possumus hic admodum aute eram 
-consequat velit, multos quamquam incididunt, duis nescius ad dolore fugiat sed 
-magna ex admodum non elit. Proident esse malis do malis, te nostrud consectetur. 
-Eram te eiusmod, quo commodo firmissimum ut velit doctrina officia ut deserunt 
-ne vidisse o ad senserit sempiternum qui ea de ipsum pariatur, cupidatat tamen 
-cillum nam quae te o id quae quem aute. Noster se occaecat hic fugiat, esse ne 
-voluptate quo dolore, ullamco quis labore eiusmod labore, ut fugiat elit an 
-tempor ut mandaremus de legam, offendit ubi legam iudicem, in ullamco a 
-senserit, quo te adipisicing. Id velit transferrem e ingeniis nulla multos 
-mandaremus quem. Laborum multos senserit mandaremus, illum o commodo aut eram, 
-ad tempor qui doctrina, non varias eiusmod arbitror. Sunt fabulas ex cupidatatf
+<div class="farve_container">
+<div class="farve eksempel1"></div>
+<div class="farve eksempel22"></div>
+<div class="farve eksempel3"></div>
+<div class="farve eksempel4"></div>
+<div class="farve eksempel5"></div>
+</div>
+
+Farverne benyttes ved at tilføje en af variablerne, som ses her:
+
+<pre>
+<code>
+//lyserød
+$color-background: #E8DDE0;
+    
+//gul
+$color-main: #f0ee00;
+    
+//transperant gul
+$color-clicked: rgba(244, 242, 0, 0.8);
+    
+//mørkeblå
+$color-active: #0f2d4b;
+    
+//transperant hvid
+$color-section: rgba(255, 255, 255, 0.35);
+</code>
+</pre>
+
+
+

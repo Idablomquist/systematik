@@ -12,4 +12,4 @@ For further guidelines and inspiration go to [guide](../guide/). Here you will f
 <h4>Who am I?</h4> 
 <p>My name is Ida and I'm a multimedia designer. <br>Would you like to contact me or see my work please visit me [here](http://idablomquist.dk) or go to [contact](../contact/).
 
-![Foto af designeren](../imgs/mig.jpg)
+![Foto](../imgs/mig.jpg)

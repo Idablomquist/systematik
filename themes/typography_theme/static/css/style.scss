@@ -6,12 +6,15 @@ $color-main: #f0ee00;
 $color-clicked: rgba(244, 242, 0, 0.8);
 $color-active: #0f2d4b;
 $color-link: #0f2d4b;
+$color-section: rgba(255, 255, 255, 0.35);
 $button-height: 27px;
 $button-width: 35px;
 //------------- PRELOADER
 @import 'partials/preloader';
 //------------- PRELOADER2
 @import 'partials/preloader2';
+//------------- MODAL VINDUE
+@import 'partials/modal';
 //------------- TYPOGRAFI
 html {
     font-size: 1em;
@@ -32,6 +35,7 @@ section {
     border-radius: 5px;
 }
 
+ul,
 p {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1.3em;
@@ -39,9 +43,17 @@ p {
     font-size: 0.9em;
 }
 
+ul {
+    margin-top: 1vw;
+}
+
 a {
     text-decoration: none;
     color: $color-main;
+}
+
+a:hover {
+    color: §color-active;
 }
 
 h1,
@@ -73,6 +85,39 @@ h2 {
     text-align: left;
     margin: 0;
     margin-left: 0.1em;
+}
+
+.farve_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em;
+    justify-content: space-around;
+}
+
+.farve {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.eksempel1 {
+    background: $color-background;
+}
+
+.eksempel22 {
+    background: $color-main;
+}
+
+.eksempel3 {
+    background: $color-clicked;
+}
+
+.eksempel4 {
+    background: $color-active;
+}
+
+.eksempel5 {
+    background: $color-section;
 }
 
 h3 {
@@ -123,6 +168,11 @@ img {
     margin: 0 auto;
 }
 
+.navigationseksempel {
+    width: 50%;
+    height: 50%;
+}
+
 //------------- NAVIGATION
 @import 'partials/navigation';
 //------------- FORMULAR
@@ -148,6 +198,16 @@ img {
     p {
         margin: 3vw;
     }
+    .eksempel {
+        margin-left: 0.2em;
+    }
+    .farve {
+        width: 70px;
+        height: 70px;
+    }
+    .farve_container {
+        margin: 0em;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -172,6 +232,13 @@ img {
     }
     .eksempel2 {
         margin-left: 1em;
+    }
+    .farve {
+        width: 80px;
+        height: 80px;
+    }
+    .farve_container {
+        margin: 2em;
     }
 }
 

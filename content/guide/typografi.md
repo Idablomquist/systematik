@@ -8,7 +8,7 @@ Til brødtekst er skrifttypen Open Sans benyttet.
 <br><br>
 Begge fonts kan downloades via GoogleFont [Archivo Black her](https://fonts.google.com/specimen/Archivo+Black) og [Open Sans her](https://fonts.google.com/specimen/Open+Sans)
 <br>
-Eksempler på anvendte fonte:
+Eksempler på anvendte fonts:
 
 <h2 class="eksempel">display</h2>
 <br>
