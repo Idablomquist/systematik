@@ -1,3 +1,22 @@
+/*PRELOADER START*/
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    setTimeout(function () {
+        $('#loader').addClass('done');
+        $('.preloader_container').addClass('done')
+    }, 2000);
+});
+
+
+//setTimeout(function () {
+//
+//    $('#loader').addClass('done');
+//    $('.preloader_container').addClass('done');
+//
+//}, 3000);
+
+
 /*NAVIGATION START*/
 
 $('#toggle').click(function () {
@@ -6,7 +25,7 @@ $('#toggle').click(function () {
 });
 
 
-/*NAVIGATION SLUT*/
+/*KONTAKTFORMULAR*/
 
 /*Ajax contact form*/
 $("#kontaktmig").submit(function (event) {
@@ -19,13 +38,13 @@ function submitForm() {
     // Initiate Variables With Form Content
     var navn = $("#navn").val();
     var email = $("#email").val();
-    var henvendelse = $("#henvendelse").val();
+    //var henvendelse = $("#henvendelse").val();
     var besked = $("#besked").val();
 
     $.ajax({
         type: "POST",
         url: "formhandler.php",
-        data: "navn=" + navn + "&email=" + email + "&henvendelse=" + henvendelse + "&besked=" + besked,
+        data: "navn=" + navn + "&email=" + email + "&besked=" + besked,
         success: function (text) {
             if (text == "success") {
                 formSuccess();
@@ -45,4 +64,30 @@ function formSuccess() {
 function formFailure(text) {
     $("#formfailure").removeClass("hidden");
     $("#formfailure").html(text);
+}
+
+
+
+
+
+/*DATAVISUALISERING*/
+
+window.addEventListener("load", altErLoadet);
+
+function altErLoadet() {
+
+    TweenMax.staggerFrom(".column_and_name_container p", 1, {
+        opacity: "0"
+    }, -.1);
+    TweenMax.staggerFrom(".column_and_name_container svg", 1, {
+        width: "0"
+    }, .1);
+}
+
+function del2() {
+    console.log("hele stagger animation slut");
+    TweenMax.staggerFrom(".column_and_name_container svg", 1, {
+        width: "0"
+    }, .1)
+
 }

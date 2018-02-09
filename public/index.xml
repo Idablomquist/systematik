@@ -1,32 +1,137 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Mit site</title>
-    <link>http://idablomquist.dk/kea/mitsite/</link>
-    <description>Recent content in Home on Mit site</description>
+    <title>home on Mit site</title>
+    <link>http://idablomquist.dk/kea/typography_theme/</link>
+    <description>Recent content in home on Mit site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>da-DK</language>
     <lastBuildDate>Thu, 01 Feb 2018 09:02:04 +0100</lastBuildDate>
     
-	<atom:link href="http://idablomquist.dk/kea/mitsite/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://idablomquist.dk/kea/typography_theme/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Typografi</title>
-      <link>http://idablomquist.dk/kea/mitsite/dokumentation/typografi/</link>
-      <pubDate>Thu, 01 Feb 2018 08:53:31 +0100</pubDate>
+      <title>optimering</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/performance_optimering/</link>
+      <pubDate>Wed, 07 Feb 2018 18:32:14 +0100</pubDate>
       
-      <guid>http://idablomquist.dk/kea/mitsite/dokumentation/typografi/</guid>
-      <description>Typografi</description>
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/performance_optimering/</guid>
+      <description>For at performance optimere dette framework og gøre websitet hurtigere er forskellige plugins og tiltag tilføjet.  Console log er benyttet til at opdage og minimere fejl og døde links. Network er benyttet til at teste load-tiden på sitet og tilpasset herefter for yderligere optimering. Laxy Load (download her) er installeret for at optimere visning af billeder, således at det kun er grafik/billeder som vises der loades (og ikke alt på én gang.</description>
     </item>
     
     <item>
-      <title>Farver</title>
-      <link>http://idablomquist.dk/kea/mitsite/dokumentation/farver/</link>
+      <title>SoMe</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/social_medie/</link>
+      <pubDate>Wed, 07 Feb 2018 18:31:48 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/social_medie/</guid>
+      <description>Dette framework indeholder en integration af et Facebook comment-plugin.   (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &#39;https://connect.facebook.net/da_DK/sdk.js#xfbml=1&amp;version=v2.12&#39;; fjs.parentNode.insertBefore(js, fjs); }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));  Comment-plugin gør det muligt for folk at kommentere indhold på dit websted, ved hjælp af deres Facebook-konto. Kommentareren kan deles med deres venner på Facebook også. Plugin&amp;rsquo;et tilføjes ved at indsætte følgende:   &amp;lt;div class=&amp;ldquo;fb-comments&amp;rdquo; data-href=&amp;ldquo;https://&amp;rdquo; data-numposts=&amp;ldquo;5&amp;rdquo;&amp;gt;&amp;lt;/div&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>preloader</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/preloader/</link>
+      <pubDate>Wed, 07 Feb 2018 18:31:48 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/preloader/</guid>
+      <description>          Her ses en preloader - den kan indsættes på sitet for at vise brugeren at sitet er igang med at loade. Den indsættes ved at tilføje class .preloader_container til en omkringliggende div, og id #loader til en div indeni. Se eksempel:
+  &amp;lt;div class=&#34;preloader_container2&#34;&amp;gt; &amp;lt;div id=&#34;loader2&#34;&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;   </description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/animation/</link>
+      <pubDate>Wed, 07 Feb 2018 18:31:32 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/animation/</guid>
+      <description>Når man klikker på menuen, ses en animation. De tre streger animeres til et kryds, samtidig med at et overlay med navigationen bliver synlig. Klikkes der på krydset animeres der igen tilbage til de tre striber som udgør menuen. Menuen ses i øverste højre hjørne. Animationen tilføjes ved at tilføje class .active til id&amp;rsquo;et #toggle og class .open til id&amp;rsquo;et #overlay. Dette gøres via jQuery som illustreret her:
+  $(&#39;#toggle&#39;).</description>
+    </item>
+    
+    <item>
+      <title>scaffolding</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/scaffolding/</link>
+      <pubDate>Wed, 07 Feb 2018 18:31:09 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/scaffolding/</guid>
+      <description>Scaffolding = stilladsering. Det vil sige at man konstruerer “kasserne” til placering af indholdet på website. Dette framework benytter Flexbox Grid til at bygge “scaffoldet” til sitet op. Flexbox Grid downloades her, hvorefter filen flexboxgrid.min.css tilføjes til themes/static/css-mappen og inkluderes i headeren:   &amp;lt;link rel=&amp;ldquo;stylesheet&amp;rdquo; href=&amp;ldquo;{{.Site.BaseURL}}/css/flexboxgrid.min.css&amp;rdquo;&amp;gt;  
+Efter installation af Flexbox Grid kan følgende class&amp;rsquo; anvendes til at opdele indholdet på sitet:
+Her er vist eksempler som er anvendt i temaet - tallet kan skiftes ud med tal fra 1-12, alt efter hvor mange kolonner man ønsker indholdet skal fylde</description>
+    </item>
+    
+    <item>
+      <title>browser reset</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/browser_reset/</link>
+      <pubDate>Wed, 07 Feb 2018 18:30:39 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/browser_reset/</guid>
+      <description>Alle browsere opfører sig lidt forskelligt, så derfor inkluderer dette framework et browser reset som nulstiller alle standardiserede indstillinger. Normalize downloades her, hvorefter filen normalize.css tilføjes til themes/static/css-mappen og inkluderes i headeren:  &amp;lt;link rel=&amp;ldquo;stylesheet&amp;rdquo; href=&amp;ldquo;{{.Site.BaseURL}}/css/normalize.css&amp;rdquo;&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>modal vindue</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/modal/</link>
+      <pubDate>Wed, 07 Feb 2018 18:30:02 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/modal/</guid>
+      <description>Dette framework indeholder en modal-vindue-funktion, som kan benyttes til f.eks. ekstra information om billeder, eller for at få brugerens opmærksomhed.
+Dette er et eksempel på et modal vindue
+ Modal vindue
+Modal-vindue kan benyttes ved at tilføje class .modal-vindue til en div og ved at oprette en div med class .modal til modalvinduets indehold:
+  &amp;lt;div id=&#34;ex1&#34; class=&#34;modal&#34;&amp;gt; &amp;lt;p&amp;gt;Dette er et eksempel på et modal vindue&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;p&amp;gt; &amp;lt;a href=&#34;</description>
+    </item>
+    
+    <item>
+      <title>knapper</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/knap/</link>
+      <pubDate>Wed, 07 Feb 2018 18:29:20 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/knap/</guid>
+      <description>knap
+Du kan lave knapper ved at tilføje classen btns til en knap eller et link, som illustreret i følgende eksempel:  &amp;lt;a href=&#34;&#34; class=&#34;btns&#34;&amp;gt;KNAPTEKST&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;   </description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://idablomquist.dk/kea/typography_theme/about/</link>
+      <pubDate>Thu, 01 Feb 2018 09:02:04 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/about/</guid>
+      <description>This theme is for you who love the focus on typography and has a weak point for simplicity and simple colors. The colors can easily be replaced and a new display-typography can easily be inserted so that the theme is customized for your aesthetics and needs. For further guidelines and inspiration go to guide. Here you will find easy descriptions of the various features that the theme contains. Who am I?</description>
+    </item>
+    
+    <item>
+      <title>formular</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/formular/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:31 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/formular/</guid>
+      <description>Dette framework indeholder også en contact-formular, så brugeren af sitet har mulighed for at komme i kontakt med dig. Gå til contact for at se formularen i funktion. Denne formular oprettes ved at tilføje class .formular_container.   &amp;lt;div class=&amp;ldquo;formular_container&amp;rdquo;&amp;gt; &amp;lt;div id=&amp;ldquo;formfeedback&amp;rdquo; class=&amp;ldquo;hidden&amp;rdquo;&amp;gt;Vi vender tilbage snarest!&amp;lt;/div&amp;gt; &amp;lt;form action=&amp;ldquo;&amp;rdquo; method=&amp;ldquo;post&amp;rdquo; id=&amp;ldquo;kontaktmig&amp;rdquo;&amp;gt; &amp;lt;label for=&amp;ldquo;Navn&amp;rdquo;&amp;gt;Name&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;ldquo;text&amp;rdquo; id=&amp;ldquo;navn&amp;rdquo; name=&amp;ldquo;navn&amp;rdquo; placeholder=&amp;ldquo;Your name&amp;rdquo;&amp;gt; &amp;lt;label for=&amp;ldquo;email&amp;rdquo;&amp;gt;E-mail&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;ldquo;email&amp;rdquo; id=&amp;ldquo;email&amp;rdquo; name=&amp;ldquo;email&amp;rdquo; placeholder=&amp;ldquo;Your e-mail&amp;rdquo; required&amp;gt; &amp;lt;label for=&amp;ldquo;besked&amp;rdquo;&amp;gt;Message&amp;lt;/label&amp;gt; &amp;lt;textarea id=&amp;ldquo;besked&amp;rdquo; name=&amp;ldquo;besked&amp;rdquo; placeholder=&amp;ldquo;Your message.</description>
+    </item>
+    
+    <item>
+      <title>typografi</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/typografi/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:31 +0100</pubDate>
+      
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/typografi/</guid>
+      <description>Til overskrifter og display-font på home-page er skrifttypen Archivo Black
+Til brødtekst er skrifttypen Open Sans benyttet. Begge fonts kan downloades via GoogleFont Archivo Black her og Open Sans her Eksempler på anvendte fonts:
+display, h1 overskrift, h3
+Brødtekst
+Lorem quae ex amet distinguantur admodum quae aliquip o culpa quamquam ad illustriora ab nulla deserunt qui noster duis, multos arbitror ingeniis, occaecat instituendarum aut iudicem, amet iudicem ubi laborum. Velit ex non aliqua senserit eu eram an ne duis doctrina, de sunt ad anim iis dolor est ea sunt tempor.</description>
+    </item>
+    
+    <item>
+      <title>farver</title>
+      <link>http://idablomquist.dk/kea/typography_theme/guide/farver/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
       
-      <guid>http://idablomquist.dk/kea/mitsite/dokumentation/farver/</guid>
-      <description>Farver</description>
+      <guid>http://idablomquist.dk/kea/typography_theme/guide/farver/</guid>
+      <description>Til dette tema er anvendt fem farver.
+      Farverne benyttes ved at tilføje en af variablerne, som ses her:
+  //lyserød $color-background: #E8DDE0; //gul $color-main: #f0ee00; //transperant gul $color-clicked: rgba(244, 242, 0, 0.8); //mørkeblå $color-active: #0f2d4b; //transperant hvid $color-section: rgba(255, 255, 255, 0.35);   </description>
     </item>
     
   </channel>

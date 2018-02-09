@@ -1,5 +1,5 @@
 baseURL = "http://idablomquist.dk/kea/typography_theme"
-languageCode = "en-us"
+languageCode = "da-DK"
 title = "Mit site"
 theme = "typography_theme"
 

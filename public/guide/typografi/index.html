@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Theme</title>
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/normalize.css">
+    
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/jquery.modal.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a>
+                     
+
+                    <a href="/kea/typography_theme/">home</a> 
+
+                    <a href="/kea/typography_theme/about">about</a> 
+
+                    <a href="/kea/typography_theme/guide/">guide</a> 
+
+                    <a href="/kea/typography_theme/datavisualisering/">datavisualisering</a> 
+
+                    <a href="/kea/typography_theme/contact/">contact</a> 
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+<h2>typografi</h2>
+
+
+<section>
+    <div class="col-xs-12 col-md-12 col-lg-6 col-lg-offset-3"><p>Til overskrifter og display-font på home-page er skrifttypen Archivo Black<br>
+Til brødtekst er skrifttypen Open Sans benyttet.
+<br><br>
+Begge fonts kan downloades via GoogleFont <a href="https://fonts.google.com/specimen/Archivo+Black">Archivo Black her</a> og <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans her</a>
+<br>
+Eksempler på anvendte fonts:</p>
+
+<p><h2 class="eksempel">display, h1</h2>
+<br>
+<h3 class="eksempel2">overskrift, h3</h3></p>
+
+<p>Brødtekst<br>Lorem quae ex amet distinguantur admodum quae aliquip o culpa quamquam ad 
+illustriora ab nulla deserunt qui noster duis, multos arbitror ingeniis, 
+occaecat instituendarum aut iudicem, amet iudicem ubi laborum.
+Velit ex non aliqua senserit eu eram an ne duis doctrina, de sunt ad anim iis dolor est ea sunt tempor. Offendit fore se deserunt reprehenderit, noster eiusmod quo.</p>
+
+<pre>
+<code>
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: $color-main;
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+    font-size: 5.163em;
+    position: relative;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Archivo Black', sans-serif;
+    color: $color-active;
+    font-weight: inherit;
+    line-height: 1.2;
+    font-size: 2.25em;
+    margin: 0;
+    margin-left: 1em;
+}
+
+p  {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.3em;
+    margin: 4.5vw;
+    font-size: 0.9em;
+}
+</code>
+</pre>
+</div>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/jquery.modal.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/lazyload.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/script.js"></script>
+
+</body>
+
+</html>
+

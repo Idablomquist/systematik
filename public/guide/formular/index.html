@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Theme</title>
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/normalize.css">
+    
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/jquery.modal.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a>
+                     
+
+                    <a href="/kea/typography_theme/">home</a> 
+
+                    <a href="/kea/typography_theme/about">about</a> 
+
+                    <a href="/kea/typography_theme/guide/">guide</a> 
+
+                    <a href="/kea/typography_theme/datavisualisering/">datavisualisering</a> 
+
+                    <a href="/kea/typography_theme/contact/">contact</a> 
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+<h2>formular</h2>
+
+
+<section>
+    <div class="col-xs-12 col-md-12 col-lg-6 col-lg-offset-3"><p>Dette framework indeholder også en contact-formular, så brugeren af sitet har mulighed for at komme i kontakt med dig.
+<br>
+Gå til <a href="../../contact/">contact</a> for at se formularen i funktion.
+<br>
+<br>
+Denne formular oprettes ved at tilføje class .formular_container.
+<pre>
+<code>
+&lt;div class=&ldquo;formular_container&rdquo;&gt;
+    &lt;div id=&ldquo;formfeedback&rdquo; class=&ldquo;hidden&rdquo;&gt;Vi vender tilbage snarest!&lt;/div&gt;
+    <br>
+    &lt;form action=&ldquo;&rdquo; method=&ldquo;post&rdquo; id=&ldquo;kontaktmig&rdquo;&gt;
+    <br>
+    &lt;label for=&ldquo;Navn&rdquo;&gt;Name&lt;/label&gt;
+        &lt;input type=&ldquo;text&rdquo; id=&ldquo;navn&rdquo; name=&ldquo;navn&rdquo; placeholder=&ldquo;Your name&rdquo;&gt;
+        &lt;label for=&ldquo;email&rdquo;&gt;E-mail&lt;/label&gt;
+        &lt;input type=&ldquo;email&rdquo; id=&ldquo;email&rdquo; name=&ldquo;email&rdquo; placeholder=&ldquo;Your e-mail&rdquo; required&gt;
+        <br>
+        &lt;label for=&ldquo;besked&rdquo;&gt;Message&lt;/label&gt;
+        &lt;textarea id=&ldquo;besked&rdquo; name=&ldquo;besked&rdquo; placeholder=&ldquo;Your message..&rdquo;&gt;&lt;/textarea&gt;
+        &lt;input type=&ldquo;submit&rdquo; name=&ldquo;submit&rdquo; value=&ldquo;Submit&rdquo;&gt;
+        &lt;div id=&ldquo;formfailure&rdquo; class=&ldquo;hidden&rdquo;&gt;&lt;/div&gt;
+    &lt;/form&gt;
+    <br>
+&lt;/div&gt;
+</code>
+</pre></p>
+</div>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/jquery.modal.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/lazyload.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/script.js"></script>
+
+</body>
+
+</html>
+

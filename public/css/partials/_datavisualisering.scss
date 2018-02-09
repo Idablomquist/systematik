@@ -1,0 +1,23 @@
+.diagram_container {
+    margin-top: 5vw;
+    //    transform: rotate(90deg);
+    width: 100%;
+}
+
+.diagram_container p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+svg {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 1024px) {
+    .diagram_container p {
+        font-size: 0.9em;
+    }
+}

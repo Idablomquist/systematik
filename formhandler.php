@@ -1,9 +1,5 @@
-<!--HUSK AT INDTASTE DIN EGEN EMAIL UNDER $MODTAGER (i bunden)-->
-<!--Når man benytter one.com, skal man indtaste den mail der hører til ens domæne-->
-
-
 <?php
-$navn = $email = $henvendelse = $besked = "";
+$navn = $email = $besked = "";
 
 function test_input($formdata) {
   $formdata = trim($formdata);
@@ -32,11 +28,11 @@ $inputerror = "";
         }
       }
     
-    if (empty($_POST["henvendelse"])) {
-        $inputerror .= "Årsag for henvendelse skal udfyldes";
-      } else {
-            $henvendelse = test_input($_POST["henvendelse"]);
-      }
+//    if (empty($_POST["henvendelse"])) {
+//        $inputerror .= "Årsag for henvendelse skal udfyldes";
+//      } else {
+//            $henvendelse = test_input($_POST["henvendelse"]);
+//      }
 
     if (empty($_POST["besked"])) {
         $inputerror .= "Indtast venligst lidt i tekstfeltet om hvorfor du vil i kontakt med os.";
@@ -45,8 +41,8 @@ $inputerror = "";
       }
 
 
-$modtager = "futte90@msn.com";
-$subject = "Besked fra " . $navn . " om " . $henvendelse . " ";
+$modtager = "dinmail@mail.dk";
+$subject = "Besked fra " . $navn . " om " . " ";
 $headers = "From: " . $email . " ";
 
 if($inputerror == ""){

@@ -38,13 +38,13 @@ function submitForm() {
     // Initiate Variables With Form Content
     var navn = $("#navn").val();
     var email = $("#email").val();
-    var henvendelse = $("#henvendelse").val();
+    //var henvendelse = $("#henvendelse").val();
     var besked = $("#besked").val();
 
     $.ajax({
         type: "POST",
         url: "formhandler.php",
-        data: "navn=" + navn + "&email=" + email + "&henvendelse=" + henvendelse + "&besked=" + besked,
+        data: "navn=" + navn + "&email=" + email + "&besked=" + besked,
         success: function (text) {
             if (text == "success") {
                 formSuccess();
@@ -65,6 +65,9 @@ function formFailure(text) {
     $("#formfailure").removeClass("hidden");
     $("#formfailure").html(text);
 }
+
+
+
 
 
 /*DATAVISUALISERING*/

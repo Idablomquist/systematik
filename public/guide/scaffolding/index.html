@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Theme</title>
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/normalize.css">
+    
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/jquery.modal.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a>
+                     
+
+                    <a href="/kea/typography_theme/">home</a> 
+
+                    <a href="/kea/typography_theme/about">about</a> 
+
+                    <a href="/kea/typography_theme/guide/">guide</a> 
+
+                    <a href="/kea/typography_theme/datavisualisering/">datavisualisering</a> 
+
+                    <a href="/kea/typography_theme/contact/">contact</a> 
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+<h2>scaffolding</h2>
+
+
+<section>
+    <div class="col-xs-12 col-md-12 col-lg-6 col-lg-offset-3"><p>Scaffolding = stilladsering. Det vil sige at man konstruerer “kasserne” til placering af indholdet på website. Dette framework benytter Flexbox Grid til at bygge “scaffoldet” til sitet op.
+<br>
+<br>
+Flexbox Grid downloades <a href="http://flexboxgrid.com/">her</a>, hvorefter filen flexboxgrid.min.css tilføjes til themes/static/css-mappen og inkluderes i headeren:
+<pre>
+<code>
+&lt;link rel=&ldquo;stylesheet&rdquo; href=&ldquo;{{.Site.BaseURL}}/css/flexboxgrid.min.css&rdquo;&gt;
+</code>
+</pre></p>
+
+<p>Efter installation af Flexbox Grid kan følgende class&rsquo; anvendes til at opdele indholdet på sitet:<br>
+<em>Her er vist eksempler som er anvendt i temaet - tallet kan skiftes ud med tal fra 1-12, alt efter hvor mange kolonner man ønsker indholdet skal fylde</em></p>
+
+<p><strong>Til skærmstørrelse under 768px</strong><br>
+col-xs-12</p>
+
+<p><strong>Til skærmstørrelse mellem 768 og 1024px</strong><br>
+col-sm-12</p>
+
+<p><strong>Til skærmstørrelse mellem 1024 og 1200px</strong><br>
+col-md-12</p>
+
+<p><strong>Til skærmstørrelse over 1200px</strong><br>
+col-lg-6<br>
+col-lg-offset-3<br>
+<em>(offset-3 gør at indholdet bliver rykket 3 kolonner ind)</em></p>
+</div>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/jquery.modal.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/lazyload.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/script.js"></script>
+
+</body>
+
+</html>
+

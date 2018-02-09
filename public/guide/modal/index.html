@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Theme</title>
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/normalize.css">
+    
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/jquery.modal.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a>
+                     
+
+                    <a href="/kea/typography_theme/">home</a> 
+
+                    <a href="/kea/typography_theme/about">about</a> 
+
+                    <a href="/kea/typography_theme/guide/">guide</a> 
+
+                    <a href="/kea/typography_theme/datavisualisering/">datavisualisering</a> 
+
+                    <a href="/kea/typography_theme/contact/">contact</a> 
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+<h2>modal vindue</h2>
+
+
+<section>
+    <div class="col-xs-12 col-md-12 col-lg-6 col-lg-offset-3"><p>Dette framework indeholder en modal-vindue-funktion, som kan benyttes til f.eks. ekstra information om billeder, eller for at få brugerens opmærksomhed.</p>
+
+<!-- Indhold til modal vindue -->
+
+<div id="ex1" class="modal">
+  <p>Dette er et eksempel på et modal vindue</p>
+
+</div>
+
+<!-- Link til at åbne modal vindue -->
+
+<p><a href="#ex1" rel="modal:open" class="modal_vindue">Modal vindue</a></p>
+
+<p>Modal-vindue kan benyttes ved at tilføje class .modal-vindue til en div og ved at oprette en div med class .modal til modalvinduets indehold:</p>
+
+<pre>
+    <code>
+<!-- Indhold til modal vindue -->
+&lt;div id="ex1" class="modal"&gt;
+  &lt;p&gt;Dette er et eksempel på et modal vindue&lt;/p&gt;
+&lt;/div&gt;
+
+<!-- Link til at åbne modal vindue -->
+&lt;p&gt;
+   &lt;a href="#ex1" rel="modal:open" class="modal_vindue"&gt;Modal vindue&lt;/a&gt;
+&lt;/p&gt;
+    </code>
+</pre>
+
+<p>Her er modalvinduet tilføjet en fading.animation (fadeDuration), som kan justeres i JavaScript-filen.
+<br>
+Yderligere specifikationer til denne funktion kan findes <a href="http://jquerymodal.com">her</a>.</p>
+</div>
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/jquery.modal.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/lazyload.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/script.js"></script>
+
+</body>
+
+</html>
+

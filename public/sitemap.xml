@@ -3,37 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/performance_optimering/</loc>
+    <lastmod>2018-02-07T18:32:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/social_medie/</loc>
+    <lastmod>2018-02-07T18:31:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/preloader/</loc>
+    <lastmod>2018-02-07T18:31:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/animation/</loc>
+    <lastmod>2018-02-07T18:31:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/scaffolding/</loc>
+    <lastmod>2018-02-07T18:31:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/browser_reset/</loc>
+    <lastmod>2018-02-07T18:30:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/modal/</loc>
+    <lastmod>2018-02-07T18:30:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/datavisualisering/</loc>
+    <lastmod>2018-02-07T18:29:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/knap/</loc>
+    <lastmod>2018-02-07T18:29:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/about/</loc>
     <lastmod>2018-02-01T09:02:04+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/dokumentation/typografi/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/</loc>
+    <lastmod>2018-02-01T09:02:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/formular/</loc>
     <lastmod>2018-02-01T08:53:31+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/dokumentation/farver/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/typografi/</loc>
+    <lastmod>2018-02-01T08:53:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/farver/</loc>
     <lastmod>2018-02-01T08:53:19+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/dokumentation/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/guide/</loc>
     <lastmod>2018-02-01T08:52:42+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/om/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/contact/</loc>
     <lastmod>2018-02-01T08:46:22+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/categories/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://idablomquist.dk/kea/mitsite/tags/</loc>
+    <loc>http://idablomquist.dk/kea/typography_theme/tags/</loc>
     <priority>0</priority>
   </url>
   

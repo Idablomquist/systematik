@@ -1,0 +1,14 @@
+//------------- MODAL VINDUE
+.modal_vindue {
+    background: $color-main;
+    color: $color-active;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modal_vindue:hover {
+    background: $color-clicked;
+}

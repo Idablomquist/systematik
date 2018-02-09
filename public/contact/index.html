@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Theme</title>
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/normalize.css">
+    
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/jquery.modal.min.css">
+    <link rel="stylesheet" href="http://idablomquist.dk/kea/typography_theme/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" class="" onclick="closeNav()"></a>
+                     
+
+                    <a href="/kea/typography_theme/">home</a> 
+
+                    <a href="/kea/typography_theme/about">about</a> 
+
+                    <a href="/kea/typography_theme/guide/">guide</a> 
+
+                    <a href="/kea/typography_theme/datavisualisering/">datavisualisering</a> 
+
+                    <a href="/kea/typography_theme/contact/">contact</a> 
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+<h2>contact</h2>
+
+
+<div class="subtitle col-xs-12 col-sm-6 col-lg-6"><p>Feel free to contact me if you have any questions or feedback.</p>
+</div>
+<section>
+
+    
+
+    <div class="formular_container">
+        <div class="container">
+            <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
+            <form action="" method="post" id="kontaktmig">
+
+                <label for="Navn">Navn</label>
+                <input type="text" id="navn" name="navn" placeholder="Dit navn">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Din e-mail">
+
+                
+
+                <label for="besked">Besked</label>
+                <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
+
+                <input type="submit" name="submit" value="Submit">
+
+                <div id="formfailure" class="hidden"></div>
+            </form>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+
+    <div class="col-xs-12 col-lg-6 col-lg-offset-3">
+        <div class="fb-comments" data-href="https://idablomquist.dk/kea/typography_site" data-numposts="5"></div>
+    </div>
+</section>
+
+
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/jquery.modal.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/lazyload.min.js"></script>
+<script src="http://idablomquist.dk/kea/typography_theme/js/script.js"></script>
+
+</body>
+
+</html>
+
