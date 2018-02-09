@@ -1,0 +1,10 @@
+{{partial "header.html" . }}
+
+<h2>{{.Title}}</h2>
+<section>
+    <div class="col-xs-12 col-sm-6 col-lg-6 col-lg-offset-3">{{.Content}}</div>
+
+    {{ partial "datavisualisering.html" . }}
+</section>
+
+{{ partial "footer.html" . }}

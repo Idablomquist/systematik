@@ -65,3 +65,26 @@ function formFailure(text) {
     $("#formfailure").removeClass("hidden");
     $("#formfailure").html(text);
 }
+
+
+/*DATAVISUALISERING*/
+
+window.addEventListener("load", altErLoadet);
+
+function altErLoadet() {
+
+    TweenMax.staggerFrom(".column_and_name_container p", 1, {
+        opacity: "0"
+    }, -.1);
+    TweenMax.staggerFrom(".column_and_name_container svg", 1, {
+        width: "0"
+    }, .1);
+}
+
+function del2() {
+    console.log("hele stagger animation slut");
+    TweenMax.staggerFrom(".column_and_name_container svg", 1, {
+        width: "0"
+    }, .1)
+
+}

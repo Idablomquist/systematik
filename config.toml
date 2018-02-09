@@ -25,9 +25,16 @@ theme = "typography_theme"
     url = "/guide/"
     
     [[menu.main]]
+    name = "datavisualisering"
+    title = "datavisualisering"
+    weight = 4
+    identifier = "datavisualisering"
+    url = "/datavisualisering/"
+    
+    [[menu.main]]
     name = "Contact"
     title = "contact"
-    weight = 4
+    weight = 5
     identifier = "Contact"
     url = "/contact/"
    

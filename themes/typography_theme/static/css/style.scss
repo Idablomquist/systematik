@@ -186,12 +186,24 @@ img {
     height: 50%;
 }
 
+.fb-comments {
+    margin-top: 5vw;
+    width: 100%;
+}
+
+.fb-comments2 {
+    margin-top: 0vw;
+    width: 100%;
+}
+
 //------------- NAVIGATION
 @import 'partials/navigation';
 //------------- FORMULAR
 @import 'partials/formular';
 //------------- KNAP
 @import 'partials/knap';
+//------------- DATAVISUALISERING
+@import 'partials/datavisualisering';
 //------------- MEDIAQUERIES -------------//
 @media screen and (min-width: 768px) {
     section {
